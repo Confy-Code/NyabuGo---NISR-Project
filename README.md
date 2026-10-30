@@ -1,5 +1,12 @@
 # NyabuGo — Smart Intercity Transit & Predictive Fleet Platform
 
+---
+
+[Video Walkthrough for the User's Experience](https://drive.google.com/file/d/1vVLh0EJJGqL_rkX1a2dSYUj74fnBZunS/view?usp=sharing)
+
+---
+
+
 NyabuGo is a full-stack prototype that digitalises intercity bus travel from **Nyabugogo Bus Station, Kigali**. It combines a public booking portal, a driver/regulator ticket scanner, and an operator dashboard that blends **live ticket demand** with the **NISR Rwanda Labour Force Survey 2025** mobility baseline.
 
 The project has two apps in one repository:
