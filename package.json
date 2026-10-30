@@ -1,0 +1,22 @@
+{
+  "name": "nyabugo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NyabuGo - Smart Intercity Transit & Predictive Fleet Platform for Rwanda",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c green,cyan \"npm run dev -w server\" \"npm run dev -w client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "seed": "npm run seed -w server",
+    "seed:force": "npm run seed:force -w server",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
