@@ -60,7 +60,7 @@ The dashboard is grounded in the **Rwanda Labour Force Survey 2025**, published 
 
 The **4.1% public-transport share from D23A** is used as the `NISR_Commute_Weight` in the demand model. District-level mobility is then adjusted with a regional multiplier.
 
-Source: `server/src/data/nisr.js` (seeded into the `nisr_metrics` table).
+Source: `server/src/data/nisr.js` (seeded into the `nisr_metrics` table). Data dictionary: [RW_LFS2025](https://microdatabk.statistics.gov.rw/catalog/125/data-dictionary/F1?file_name=RW_LFS2025).
 
 ### 2. Live operational data — local SQLite
 

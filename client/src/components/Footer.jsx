@@ -50,7 +50,12 @@ export default function Footer() {
             <li>Variables: D23 &amp; D23A</li>
             <li>Sample: 31,256 respondents</li>
             <li>
-              <a className="hover:text-brand-700" href="https://www.statistics.gov.rw/" target="_blank" rel="noreferrer">
+              <a
+                className="hover:text-brand-700"
+                href="https://microdatabk.statistics.gov.rw/catalog/125/data-dictionary/F1?file_name=RW_LFS2025"
+                target="_blank"
+                rel="noreferrer"
+              >
                 National Institute of Statistics of Rwanda
               </a>
             </li>

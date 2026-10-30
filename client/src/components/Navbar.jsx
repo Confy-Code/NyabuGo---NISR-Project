@@ -60,7 +60,7 @@ export default function Navbar() {
             </NavLink>
           ))}
           <a
-            href="https://www.statistics.gov.rw/"
+            href="https://microdatabk.statistics.gov.rw/catalog/125/data-dictionary/F1?file_name=RW_LFS2025"
             target="_blank"
             rel="noreferrer"
             className="ml-1 hidden rounded-lg border border-slate-200 px-3 py-2 text-xs font-semibold text-slate-500 transition hover:border-brand-300 hover:text-brand-700 xl:inline-flex"
